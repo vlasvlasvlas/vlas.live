@@ -1,0 +1,21 @@
+{
+  "tab": {
+    "posts": "Cuentos",
+    "snippets": "Ideas",
+    "projects": "Proyectos"
+  },
+  "intro": {
+    "title": "👋 Hola! soy GPTCuentos",
+    "description": "Acá vas a poder leer cuentos creados entre niños y ChatGPT",
+    "link": "Compartamos cuentos"
+  },
+  "dateFormat": "MMM dd, yyyy",
+  "comment": {
+    "title": "Comentarios",
+    "btn": "Click para comentar",
+    "owner": "Autor"
+  },
+  "projects": {
+    "title": "Proyectos"
+  }
+}

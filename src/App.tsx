@@ -82,7 +82,7 @@ export default function App() {
   }, [darkModeEnabled]);
 
   const onToggleLanguage = useCallback(() => {
-    changeLanguage(i18n.language === 'cn' ? 'en' : 'cn');
+    changeLanguage(i18n.language === 'es' ? 'en' : 'es');
   }, []);
 
   return (
@@ -99,10 +99,6 @@ export default function App() {
             <NavLinkItem to="/posts">
               <IconPosts tw="inline lg:hidden" />
               <span tw="hidden lg:inline">{t('tab.posts')}</span>
-            </NavLinkItem>
-            <NavLinkItem to="/snippets">
-              <IconSnippets tw="inline lg:hidden" />
-              <span tw="hidden lg:inline">{t('tab.snippets')}</span>
             </NavLinkItem>
             <NavLinkItem to="/projects">
               <IconProjects tw="inline lg:hidden" />
@@ -137,7 +133,7 @@ export default function App() {
           >
             CC BY-NC-SA 4.0
           </a>
-          <span tw="ml-2">2016-present © varHarrie</span>
+          <span tw="ml-2">2022-present © vlasvlasvlas</span>
         </FooterCenter>
       </Footer>
     </Wrapper>
